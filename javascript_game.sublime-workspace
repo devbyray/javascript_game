@@ -1,0 +1,1508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"dark",
+				"dark_pink"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"red",
+				"redirect_to"
+			],
+			[
+				"is_logg",
+				"is_user_logged_in"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"current_use",
+				"get_current_user_id"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"bewe",
+				"bewe-theme"
+			],
+			[
+				"aut",
+				"author_email"
+			],
+			[
+				"get_meta",
+				"get_post_meta"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"get_tem",
+				"get_template_part"
+			],
+			[
+				"pos",
+				"posts_array"
+			],
+			[
+				"is_sing",
+				"is_singular"
+			],
+			[
+				"border-bot",
+				"border-bottom"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"tem",
+				"temp_img_slide_1"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"nav",
+				"nav_width"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"imag",
+				"imaglist"
+			],
+			[
+				"blo",
+				"bloginfo"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"lic",
+				"license_data"
+			],
+			[
+				"is_sinl",
+				"is_single"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"grey",
+				"grey"
+			],
+			[
+				"is_sin",
+				"is_singular"
+			],
+			[
+				"li",
+				"lighter"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"whm",
+				"wmh_thumb_url"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"whi",
+				"white"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"opa",
+				"opacity"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"vid",
+				"video_image_url"
+			],
+			[
+				"spac",
+				"letter-spacing"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"Activ",
+				"Activate"
+			],
+			[
+				"mc-",
+				"mc-cycle"
+			],
+			[
+				"yout",
+				"youtube_url"
+			],
+			[
+				"auto",
+				"autoplay"
+			],
+			[
+				"plugin_ur",
+				"plugins_url"
+			],
+			[
+				"blue",
+				"blue_sea"
+			],
+			[
+				"border-lef",
+				"border-left"
+			],
+			[
+				"dar",
+				"grey_darker"
+			],
+			[
+				"grey_dar",
+				"grey_darker"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"the_time",
+				"get_the_time"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"int",
+				"inherit"
+			],
+			[
+				"pru",
+				"product"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"plu",
+				"plugin_urll"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 1008,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 364,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/main.js",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Windows",
+				"name": "var base_require = require.config({"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1963,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Compass/Compass.sublime-build",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"bu",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/Github/javascript_game/app/assets/components/velocity/velocity.min.js",
+		"/F/Github/javascript_game/package.json",
+		"/F/Github/javascript_game/app/assets/components/require/require.js",
+		"/F/Github/javascript_game/src/scss/partials/_gamecanvas.scss",
+		"/F/Github/javascript_game/src/scss/style.scss",
+		"/F/BitBucket/idis_studio/app/index.html",
+		"/F/BitBucket/idis_studio/src/js/scripts.js",
+		"/F/CompetaIT/Reports/2014/201407-TECH-create-partials-in-static-site-with-jQuery/201407-create-partials-in-static-site-with-jQuery-Raymon-Schouwenaar.md",
+		"/F/CompetaIT/Reports/2014/201403-TECH-responsive-tables/201403-responsive-tables-Raymon-Schouwenaar-frontend.md",
+		"/F/BitBucket/idis_studio/app/luiertaarten.html",
+		"/F/BitBucket/idis_studio/app/html/partials/gmaps.html",
+		"/F/BitBucket/idis_studio/app/html/partials/header.html",
+		"/F/BitBucket/idis_studio/app/html/partials/footer.html",
+		"/F/BitBucket/idis_studio/src/scss/partials/_nav.scss",
+		"/F/BitBucket/idis_studio/src/scss/modules/_reset.scss",
+		"/F/BitBucket/idis_studio/src/scss/partials/_footer.scss",
+		"/F/BitBucket/idis_studio/src/scss/modules/_producten.scss",
+		"/F/BitBucket/idis_studio/src/scss/style.scss",
+		"/F/BitBucket/idis_studio/src/scss/modules/_typography.scss",
+		"/F/BitBucket/idis_studio/src/scss/modules/_defaults.scss",
+		"/F/BitBucket/idis_studio/src/scss/vendor/_fluidbox.scss",
+		"/F/BitBucket/idis_studio/src/scss/modules/_layout.scss",
+		"/F/BitBucket/idis_studio/app/assets/components/fluidbox/fluidbox.min.js",
+		"/F/BitBucket/idis_studio/src/scss/modules/_vars.scss",
+		"/F/BitBucket/idis_studio/.gitignore",
+		"/F/BitBucket/idis_studio/fastshell/.editorconfig",
+		"/F/BitBucket/idis_studio/fastshell/app/index.html",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/modules/_vars.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/modules/_layout.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/partials/_header.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/partials/_nav.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/partials/_main.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/modules/_breakpoints.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/modules/_reset.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/modules/_defaults.scss",
+		"/F/BitBucket/idis_studio/fastshell/.gitkeep",
+		"/F/BitBucket/idis_studio/fastshell/.gitignore",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/vendor/_normalize.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/style.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/modules/_typography.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/modules/_animation.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/modules/_clearfix.scss",
+		"/F/BitBucket/idis_studio/fastshell/src/scss/partials/_footer.scss",
+		"/D/Downloads/webfontkit-20140809-112150/stylesheet.css",
+		"/V/Downloads/Adobe Illustrator CS6 16.0.0 (32-64 bit) [ChingLiu]/How To Open Nfo Files.txt",
+		"/V/Downloads/Adobe Illustrator CS6 16.0.0 (32-64 bit) [ChingLiu]/ChingLiu.Install.Notes.nfo",
+		"/V/Downloads/Installatie programma Adobe Indesign CC + License file/How to (2).txt",
+		"/D/Downloads/adobeillustratorcstryoutexpiryremovalpatch/readme.txt",
+		"/F/Github/wmh_annaklijn_theme/minimum/style.css",
+		"/Z/Klanten/Anna Klijn/Opdrachten/2013-11-06 trainings product/Files/Source/20131115 trainings plugin/v1/wp-video-training/wp-video-training.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/2013-11-06 trainings product/Files/Source/20131115 trainings plugin/v1/wp-video-training/functions/wp-vt-pagetemp.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/2013-11-06 trainings product/Files/Source/20131115 trainings plugin/v1/wp-video-training/functions/template/single-video-training.php",
+		"/F/Github/wmh_annaklijn_theme/minimum/functions/theme-options.php",
+		"/F/Github/wmh_annaklijn_theme/minimum/functions/metabox-functions.php",
+		"/F/Github/wmh_annaklijn_theme/minimum/functions/custom-functions.php",
+		"/F/Github/wmh_annaklijn_theme/genesis/lib/admin/theme-settings.php",
+		"/F/Github/wmh_annaklijn_theme/genesis/functions.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/2014-05-04 website annaklijn.nl/wp-content/themes/readme.md",
+		"/Z/Klanten/Anna Klijn/Opdrachten/2014-05-04 website annaklijn.nl/wp-content/themes/minimum/style.css",
+		"/Z/Klanten/Anna Klijn/Opdrachten/2013-06-11 website annaklijn.nl/Bestanden/Source bestanden/20140226 aanpassing css/wp-content/themes/minimum/style.css",
+		"/Z/Klanten/Anna Klijn/Opdrachten/2013-06-11 website annaklijn.nl/Bestanden/Source bestanden/2013-06-11 annaklijn theme/minimum/style.css",
+		"/Z/Klanten/Anna Klijn/Opdrachten/2013-06-11 website annaklijn.nl/Bestanden/Source bestanden/2013-06-11 annaklijn theme/minimum/functions/custom-functions.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131210 website aanpassingen/minimum/style.css",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131210 website aanpassingen/wp-user-redirect/wp-user-redirect.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131210 website aanpassingen/wp-members/wp-members-core.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131210 website aanpassingen/wp-user-redirect/functions/wp-wur-settings.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v1/wp-video-training/functions/wp-vt-settings.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131210 website aanpassingen/wp-user-redirect/functions/wp-vt-settings.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v1/wp-video-training/functions/template/single-video-training.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v0.1/wp-video-training/css/public.css",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v0.1/wp-video-training/functions/wp-vt-shortcodes.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v0.1/wp-video-training/functions/template/single-video-training.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v0.1/minimum/functions/custom-functions.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v0.1/minimum/style.css",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v0.1/wp-video-training/functions/wp-vt-settings.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v0.1/wp-video-training/metabox/metabox-general.php",
+		"/Z/Klanten/Anna Klijn/Opdrachten/20131106 trainings product/Files/Source/20131115 trainings plugin/v0.1/minimum/functions/metabox-functions.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-26 WP Install/wp-config.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/dealer-meta.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/wdm-users-check.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/wdm-users-roles.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/wp-dealer-manager.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/functions/opt-woocommerce.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/wdm-meta-handle.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/functions/wp-wmh-theme-tax.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/wp-wmh-theme-functions.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/wdm-users-profile-meta.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/functions/demo/demo.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-18 Backup/plugins/sitepress-multilingual-cms/sitepress.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-18 Backup/plugins/search-suggest/search_suggest.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/loop/loop-posts-search.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/wdm-cpt-handle.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/metabox/metabox-general.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/page-dealers.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/loop/archive-dealers.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/loop/loop-dealers.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/single-dealer.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/loop/loop-dealer.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/metabox/demo/demo.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/functions/style-script.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/functions/shortcodes.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/functions/locations.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/loop/loop-locations-home.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-09-02 Custom Plugin/shortcodes/shortcode-locations.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-09-02 Custom Plugin/shortcodes/shortcode-googlemaps.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/meta/dealer-meta.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/metabox/wp-wmh-theme-metabox.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-10-07 Woocommerce/woocommerce-functions.php",
+		"/D/Downloads/map-cap.2.1/map-cap/map-cap.php",
+		"/Z/Klanten/WMH WP Plugins/Opdrachten/2013-10-14 wp-invoice-clients/Bestanden/Source/Plugin/v0.1/wp-client-invoice-hero/functions/cih-cpt-functions.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/wdm-user-manage.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-10-30 Simplemap/simplemap/classes/admin.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-10-30 Simplemap/simplemap/classes/locations.php",
+		"/Z/Klanten/WMH WP Plugins/Opdrachten/2013-10-14 wp-invoice-clients/Bestanden/Source/Plugin/v0.1/wp-client-invoice-hero/functions/cih-users-roles.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Aangeleverd/contact-form-7/includes/capabilities.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-10-07 Woocommerce/woocommerce-hooks.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/cih-users-check.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/cih-users-profile-meta.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/functions/wp-wmh-theme-scripts.php",
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/functions/wp-wmh-theme-styles.php",
+		"/Z/Klanten/WMH WP Plugins/Opdrachten/2013-10-14 wp-invoice-clients/Bestanden/Source/Plugin/v0.1/wp-client-invoice-hero/functions/cih-users-profile-meta.php",
+		"/Z/Klanten/WMH WP Plugins/Opdrachten/2013-10-14 wp-invoice-clients/Bestanden/Source/Plugin/v0.1/wp-client-invoice-hero/functions/cih-customers-functions.php",
+		"/D/Webdevelopment/Bewe/sass/modules/_pagination.scss",
+		"/D/Webdevelopment/Bewe/sass/woocommerce/_product_single.scss",
+		"/D/Webdevelopment/Bewe/sass/layout/_content.scss",
+		"/D/Webdevelopment/Bewe/sass/layout/_layout.scss",
+		"/D/Webdevelopment/Bewe/sass/layout/_footer.scss",
+		"/D/Webdevelopment/Bewe/sass/woocommerce/_wcm_breadcrumb.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"F:\\BitBucket\\idis_studio\\fastshell\\src\\scss",
+			"F:\\Github\\wmh_annaklijn_theme\\genesis",
+			"F:\\Github\\wmh_annaklijn_theme\\minimum",
+			"Z:\\Klanten\\Anna Klijn\\Opdrachten\\20131210 website aanpassingen\\wp-members",
+			"Z:\\Klanten\\Anna Klijn\\Opdrachten\\20131210 website aanpassingen\\wp-user-redirect",
+			"Z:\\Klanten\\Anna Klijn\\Opdrachten\\20131210 website aanpassingen\\wp-video-training",
+			"Z:\\Klanten\\Anna Klijn\\Opdrachten\\20131106 trainings product\\Files\\Source\\20131115 trainings plugin\\v0.1\\minimum",
+			"Z:\\Klanten\\Anna Klijn\\Opdrachten\\20131106 trainings product\\Files\\Source\\20131115 trainings plugin\\v0.1\\minimum\\functions",
+			"Z:\\Klanten\\Anna Klijn\\Opdrachten\\20131106 trainings product\\Files\\Source\\20131115 trainings plugin\\v0.1\\minimum",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-07 Woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-11-06 Woocommerce backup",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-30 Simplemap\\simplemap",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-11-13 Dealer plugin\\wp-dealer-manager\\functions",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-07 Woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-07 Woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce\\single-product",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme",
+			"D:\\Webdevelopment\\Bewe\\sass",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\functions",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-07 Woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-07 Woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce",
+			"D:\\Webdevelopment\\Bewe\\sass",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce",
+			"D:\\Webdevelopment\\Bewe\\sass",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\loop",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-30 Simplemap\\simplemap",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce\\checkout",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-30 Simplemap\\simplemap",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-07 Woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-12 Woocommerce Tabs",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-09-24 WP Theme\\woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-07 Woocommerce",
+			"Z:\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-09-24 BEWE\\Bestanden\\Source\\2013-10-07 Woocommerce\\templates",
+			"Z:\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-09-22 wmh-wp-plugins.com\\Bestanden\\Source\\2013-08-31 WP Plugin EDD\\easy-digital-downloads",
+			"Z:\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-09-22 wmh-wp-plugins.com\\Bestanden\\Source\\plugins",
+			"Z:\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-09-22 wmh-wp-plugins.com\\Bestanden\\Source\\2013-09-22 WP Install",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden\\2013-09-14 WP Custom Theme",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden\\wp_exclusive_fullscreen_slider",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden\\2013-09-14 Custom Plugin",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden\\2013-09-14 WP Custom Theme",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden\\2013-09-14 WP Custom Theme\\sass",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden\\2013-08-31 WP Shop Front EDD theme\\shop-front",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden\\2013-08-31 WP Shop Front EDD theme\\shop-front\\includes",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\WMH WP Plugins\\Opdrachten\\2013-08-31 wmh-wp-plugins.nl\\Bestanden\\Source bestanden\\2013-08-31 WP Shop Front EDD theme\\shop-front",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-08-21 website BAS\\Bestanden\\Source bestanden\\2013-08-21 WP Theme",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-08-21 website BAS\\Bestanden\\Source bestanden\\2013-09-02 Custom Plugin",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-08-21 website BAS\\Bestanden\\Source bestanden\\2013-08-21 WP Theme\\sass",
+			"D:\\NAS\\Web Media Helden\\Web Media Helden\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-08-12 website graficoncept.nl\\Bestanden\\Source bestanden\\2013-08-12  WP theme\\functions",
+			"X:\\Web Media Helden\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-08-12 website graficoncept.nl\\Bestanden\\Source bestanden\\2013-08-12  WP theme\\sass",
+			"X:\\Web Media Helden\\Klanten\\Intersites-Graficoncept\\Opdrachten\\2013-08-12 website graficoncept.nl\\Bestanden\\Source bestanden\\2013-08-12  WP theme",
+			"X:\\Web Media Helden\\Klanten\\Web Media Helden\\Opdrachten\\2013-07-08 Facturerings WP plugin\\Bestanden\\Source bestanden\\2013-07-14 Invoice WP Plugin\\classes\\lib\\meta-box-class",
+			"X:\\Web Media Helden\\Klanten\\Web Media Helden\\Opdrachten\\2013-07-08 Facturerings WP plugin\\Bestanden\\Source bestanden\\2013-07-14 Invoice WP Plugin"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"components + ",
+			"package",
+			"vendor",
+			"url('",
+			"body {",
+			"custom_genesis_comment_callback",
+			"comment",
+			"wp_list_comments",
+			"genesis_comment_list_args",
+			"Voornaam",
+			"form",
+			"custom_header_form",
+			"custom_header_home_form",
+			"default_banner_posts_image_url",
+			"custom_banner_top",
+			"default_banner_style",
+			"genesis_get_option",
+			"custom_header_form",
+			"header",
+			"wp_banner_usage_style",
+			"social",
+			"select",
+			"#header ul.menu li",
+			"wpmem_login",
+			"wpmem_login_redirect",
+			"redirect_to",
+			"vt-",
+			"vt_",
+			"wp-user-redirect",
+			"appear",
+			"footer",
+			"GRATIS BLOG UPDATES",
+			"wp_compose_screenname",
+			"Tweet text",
+			"strong",
+			"location",
+			"_wmh_location",
+			"locatie",
+			"Locatie",
+			"location_",
+			"_wmh",
+			"meta",
+			"post",
+			"woocommerce_process_login",
+			"login",
+			"current_user_can",
+			"dealer-winkel",
+			"capabilities",
+			"invoice",
+			"dealer-winkel",
+			"ypt",
+			"edit_dealer",
+			"ypt",
+			"sm-admin-permissions-sm-options",
+			"woocommerce_process_login",
+			"is_admin",
+			"cih",
+			"length",
+			"woocommerce_form_field",
+			"_billing_country",
+			"country",
+			"checkout_fields",
+			"wp_kses_post",
+			"wp_kses_post()",
+			"woocommerce-message",
+			"class=\"button\"",
+			"$message",
+			"wp_kses_post",
+			"woocommerce-message",
+			"summary",
+			"search",
+			"post_per_page",
+			"pre_",
+			"wp_specialchars ",
+			"transition",
+			"span",
+			"base_pagination",
+			"change_html_subcat_thumb",
+			"change_html_product_thumb",
+			".",
+			"base_pagination",
+			"$checkout =",
+			"my_field_name",
+			"woocommerce_checkout_order_processed",
+			"$order =",
+			"$order",
+			"$customer_id",
+			"$shipping",
+			"table",
+			"address",
+			"$order_id",
+			"woocommerce_checkout_order_processed",
+			"get_adress",
+			"$order",
+			"$woocommerce",
+			"$woocommercce",
+			"$checkout",
+			"woocommerce_checkout_order_processed",
+			"woocommerce_checkout_init",
+			"array( $this, 'trigger' )",
+			"woocommerce_new_order",
+			"wp_mail",
+			"email",
+			"apply_filters email",
+			"apply_filters",
+			"email_subject",
+			"recipient",
+			"$email_heading",
+			"woocommerce_checkout",
+			"woo_form_sample_tab_content",
+			"woocommerce_template_single_sharing",
+			"woo_social_tab_content",
+			".woocommerce-breadcrumb",
+			"woocommerce_breadcrumb",
+			"/",
+			"bread",
+			"fullscreen_slider",
+			"#slider_to_bottom",
+			"#page_heading",
+			"  medium-2",
+			"h4",
+			"page_heading",
+			"get_template_part( 'nav-shop' )",
+			"<dd>",
+			"table",
+			"customer_details",
+			"recipient",
+			"location_search_submit_field"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"url('../fonts/",
+			"wur-",
+			"wur_",
+			"dealer",
+			"_wdm_dealer",
+			"dealer",
+			"Dealer",
+			"dealer_",
+			"_wdm",
+			"dealer",
+			"dealer-winkel",
+			"wdm",
+			"order_dealer",
+			"\"my_awesome_publication_notification\"",
+			"",
+			"h5",
+			"include( 'nav-shop.php' );",
+			"<div",
+			"div",
+			"",
+			"remove_wcm_",
+			".row .medium",
+			"jQuery",
+			"EDD_TSP_ITEM_NAME",
+			"EDD_TSP_STORE_URL",
+			"edd_tsp",
+			"edd_tsp_",
+			"EDD_TSP_",
+			"edd_tsp_sanitize_license",
+			"_TSP",
+			"WMH_TSP_PLUGINS_STORE_URL",
+			"wmh_tsp_check_license",
+			"wmh_tsp_license_deactivate",
+			"wmh_tsp_deactivate_license",
+			"wmh_tsp_nonce",
+			"wmh_tsp_license_activate",
+			"wmh_tsp_activate_license",
+			"wmh_tsp_sanitize_license",
+			"wmh_tsp_register_option",
+			"wmh_tsp_license",
+			"wmh_tsp_license_status",
+			"wmh_tsp_license_key",
+			"wmh_tsp_license_menu",
+			"wmh_tsp_license_page",
+			"WMH_TSP_PLUGIN",
+			"<a href=\"#\"></a><div class=\"inner\">\n        <p>This is some text</p>\n    </div>",
+			"-webkit-transform",
+			"4",
+			"_4",
+			"",
+			"\"column large-12\"",
+			"programma 3",
+			"video_image_url",
+			"url('../source/",
+			"$red;",
+			"efss_section_id",
+			"efss_options_group",
+			"efss_options_name",
+			"create_efss_setting_page",
+			"efss-settings",
+			"slider_speed",
+			"slider_pauze",
+			"slider_speed",
+			"settings",
+			"efss_settings_page",
+			"wp__fs_plugin",
+			"efss",
+			"__",
+			"efss",
+			"exclusive_fullscreen_slider",
+			"exclusive_fullscreen_slider_",
+			"Vimeo",
+			"vm",
+			"jQueryitem",
+			"jQuery",
+			"jQuery(",
+			"$",
+			"",
+			"jQuery",
+			"__",
+			"_e",
+			"snelkoppeling",
+			"$end_color",
+			"$middle_color",
+			"$begin_color",
+			"background: url(../",
+			"li class=\"slide\"",
+			"334x232",
+			"$blue",
+			" ===",
+			"!==",
+			"",
+			"===",
+			"",
+			".column",
+			"jQuery",
+			"$metabox",
+			"wpcih_screen_hook_suffix"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								989,
+								989
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								246
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var base_require = require.config({",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 130.0
+	},
+	"project": "javascript_game.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\Github\\wmh_annaklijn_theme\\minimum\\coding_polarbears.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
