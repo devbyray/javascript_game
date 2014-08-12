@@ -1,6 +1,6 @@
 // Load modules
-define(['jquery', 'velocity', 'preloader'], 
-function ($, velocity, preloader) {
+define(['preloader'], 
+function (preloader) {
 
 	"use strict";
 
