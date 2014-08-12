@@ -1,18 +1,22 @@
-var base_require = require.config({
+require.config({
 
   paths : {
     jquery		: '../components/jquery/jquery.min',
-    velocity	: '../components/velocity/velocity.min',
-
-
+    velocity	: '../components/velocity/velocity.min'
   },
+
   shim : {
     'velocity' : {
       deps : ['jquery']
     }
   },
-  deps : ['jquery', 'velocity'],
-  callback : function ($, velocity, ) {
-	JSgame.init();
+
+  deps : ['jquery', 'velocity', 'scripts'],
+
+  callback : function ($, velocity, JSgame) {
+
+    return new JSgame.init();
+
   }
+  
 });
