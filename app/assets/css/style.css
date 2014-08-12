@@ -1,3 +1,13 @@
+#gameCanvas, .preloader {
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden; }
+
 .clear:before, .clear:after {
   content: ' ';
   display: table; }
@@ -15,8 +25,8 @@
 
 html {
   font-size: 62.5%;
-  background: -webkit-radial-gradient(center, ellipse, #F7F6F0 0, #c2ba8c 80%, #b0a66b 100%);
-  background: radial-gradient(ellipse at center, #F7F6F0 0, #c2ba8c 80%, #b0a66b 100%); }
+  background: -webkit-radial-gradient(center, ellipse, #2980b9 0, #20658f 80%, #0d2a3c 100%);
+  background: radial-gradient(ellipse at center, #2980b9 0, #20658f 80%, #0d2a3c 100%); }
 
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
@@ -37,15 +47,20 @@ body, html {
 .nav ul {
   list-style: none; }
 
-#gameCanvas {
-  width: 100%;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
+.preloader {
+  background-color: #000; }
+
+.preloader h1 {
   position: absolute;
-  left: 0;
-  top: 0;
-  overflow: hidden; }
+  width: 250px;
+  height: 250px;
+  margin-top: -125px;
+  margin-left: -125px;
+  top: 50%;
+  left: 50%;
+  line-height: 250px;
+  text-align: center;
+  color: #fff; }
 
 @font-face {
   font-family: 'Font-Name';

@@ -1,3 +1,14 @@
-$base : #F7F6F0;
-$darken : darken(#F7F6F0 , 30%);
-$back: darken(#F7F6F0, 40%);
+$base : #2980b9;
+$darken : darken($base , 10%);
+$back: darken($base, 30%);
+
+%fullpage {
+	width:100%;
+	min-height:100%;
+	height:auto!important;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	overflow:hidden;
+}

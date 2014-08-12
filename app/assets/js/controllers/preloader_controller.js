@@ -6,11 +6,17 @@ function ($, velocity) {
 
 	$(function () {
 
-		console.log('Preloader is loading....');
+		console.log('Preloader script is loading....');
 
-		$('#gameCanvas').fadeIn('fast', function() {
-			this.append('Loader');
-		});
+		var activatePreloader = function() {
+			$('.preloader').velocity({ opacity: 0 }, 3500);
+		}
+
+		// Activate the preloader
+		window.setTimeout(function() {
+			console.log('Preloader activate!')
+			activatePreloader();
+		}, 1500);
 
 	});
 

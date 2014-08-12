@@ -1,10 +1,21 @@
 #gameCanvas {
-	width:100%;
-	min-height:100%;
-	height:auto!important;
-	height:100%;
-	position:absolute;
-	left:0;
-	top:0;
-	overflow:hidden;
+	@extend %fullpage;
+}
+
+.preloader {
+	@extend %fullpage;
+	background-color: #000;
+}
+
+.preloader h1 {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	margin-top: -125px;
+	margin-left: -125px;
+	top: 50%;
+	left: 50%;
+	line-height: 250px;
+	text-align: center;
+	color: #fff;
 }
