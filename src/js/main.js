@@ -2,7 +2,10 @@ require.config({
 
   paths : {
     jquery		: '../components/jquery/jquery.min',
-    velocity	: '../components/velocity/velocity.min'
+    velocity	: '../components/velocity/velocity.min',
+
+    // Controllers
+    preloader  : 'controllers/preloader_controller',
   },
 
   shim : {
@@ -11,12 +14,8 @@ require.config({
     }
   },
 
-  deps : ['jquery', 'velocity', 'scripts'],
-
-  callback : function ($, velocity, JSgame) {
-
-    return new JSgame.init();
-
-  }
+  deps : ['jquery', 'velocity', 'init']
   
 });
+
+require(['init']);

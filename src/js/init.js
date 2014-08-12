@@ -1,10 +1,26 @@
 // Load modules
-define("init", ['jquery', 'velocity'], 
-function ($, velocity) {
+define(['jquery', 'velocity', 'preloader'], 
+function ($, velocity, preloader) {
 
 	"use strict";
 
 	$(function () {
+
+		// Setting the gameCanvas size
+		var windowSize = function(width, height) {
+			$('#gameCanvas').css({
+				width: width,
+				height: height
+			});
+		};
+
+		var windowWidth = function() {
+			return $(window).outerWidth();
+		};
+
+		var windowHeight = function() {
+			return $(window).outerHeight();
+		};
 
 		var init = function() {
 			console.log("Application is loaded");
@@ -19,23 +35,8 @@ function ($, velocity) {
 				console.log("The height: ", windowHeight(), "; The width:", windowWidth(), ";");
 			});			
 
-		}
+		};
 
-		// Setting the gameCanvas size
-		var windowSize = function(width, height) {
-			$('#gameCanvas').css({
-				width: width,
-				height: height
-			});
-		}
-
-		var windowWidth = function() {
-			return $(window).outerWidth();
-		}
-
-		var windowHeight = function() {
-			return $(window).outerHeight();
-		}
 
 		// Load the application
 		init();
