@@ -15,38 +15,54 @@ define(function () {
 				checkUseragent().match(/webOS/i) || 
 				checkUseragent().match(/iPhone/i) ||
 				checkUseragent().match(/iPod/i) ||
-				checkUseragent().match(/iPad/i)){
-				return 'mobile';
+				checkUseragent().match(/iPad/i) ||
+				checkUseragent().match(/Windows Phone/i) ||
+				checkUseragent().match(/SymbianOS/i) ||
+				checkUseragent().match(/RIM/i) ||
+				checkUseragent().match(/BB/i)
+			) {
+				return 'device';
 			} else {
-				return 'desktop';
+				return 'computer';
 			}
 		},
 		deviceOS : function() {
-			if(deviceType().match(/mobile/i)) {
+			if(this.deviceType().match(/device/i)) {
 				if(checkUseragent().match(/Android/i)) {
-					return 'Android';
+					return 'android';
 				}
 				if(checkUseragent().match(/webOS/i)) {
-					return 'webOS';
+					return 'webos';
 				}
 				if(checkUseragent().match(/iPhone/i)) {
-					return 'iPhone';
+					return 'iphone';
 				}
 				if(checkUseragent().match(/iPod/i)) {
-					return 'iPod';
+					return 'ipod';
 				}
 				if(checkUseragent().match(/iPad/i)) {
-					return 'iPad';
+					return 'ipad';
+				}
+				if(checkUseragent().match(/Windows Phone/i)) {
+					return 'windows phone';
+				}
+				if(checkUseragent().match(/SymbianOS/i)) {
+					return 'symbian';
+				}
+				if(checkUseragent().match(/RIM/i) || checkUseragent().match(/BB/i)) {
+					return 'blackberry';
 				}
 			} else {
 				if(checkUseragent().match(/Windows NT/i)) {
-					return 'Windows';
+					return 'windows';
 				}
 				if(checkUseragent().match(/Mac OS/i)) {
-					return 'Mac';
+					return 'mac';
 				}
 				if(checkUseragent().match(/Linux/i)) {
-					return 'Mac';
+					return 'linux';
+				} else {
+					return 'unknown';
 				}
 			}
 		}
