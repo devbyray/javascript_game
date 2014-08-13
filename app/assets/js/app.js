@@ -1,6 +1,6 @@
 // Load modules
-define(['preloader'], 
-function (preloader) {
+define(['order!device', 'order!preloader'], 
+function (device, preloader) {
 
 	"use strict";
 
@@ -33,7 +33,9 @@ function (preloader) {
 			$(window).resize(function() {
 				windowSize(windowWidth(), windowHeight());
 				console.log("The height: ", windowHeight(), "; The width:", windowWidth(), ";");
-			});			
+			});
+
+			console.log(device.deviceType());
 
 		}
 	}
