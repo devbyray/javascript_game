@@ -9,6 +9,9 @@ define(['device'], function (device) {
 		require(["hammer"], function (hammer) {
 			if(hammer) {
 				console.log('Hammer is ready!');
+				var el = document.getElementById("gameCanvas");
+				var mc = new hammer.Manager(el);
+				touchDevice();
 			}
 		});
 	} else {
@@ -16,7 +19,9 @@ define(['device'], function (device) {
 	}
 
 	function touchDevice() {
-
+		mc.on('tab', function(ev) {
+		    console.log(ev);
+		});
 	}
  
 	function keyboardInput(e) {
