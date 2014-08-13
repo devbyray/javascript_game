@@ -6,6 +6,7 @@ require.config({
     domReady  : '../components/require/require.domready',
     order  : '../components/require/require.order',
     hammer  : '../components/hammer/hammer.min',
+    keypress  : '../components/keypress/keypress.min',
 
     // Controllers
     preloader  : 'controllers/preloader_controller',
@@ -19,8 +20,8 @@ require.config({
     },
   },
 
-  deps : ['jquery', 'velocity', 'domReady', 'app'],
-  callback : function ($, velocity, domReady, app) {
+  deps : ['jquery', 'velocity', 'domReady', 'hammer', 'keypress', 'app'],
+  callback : function ($, velocity, domReady, Hammer, keypress, app) {
     domReady(function() {
       app.init();
     });
