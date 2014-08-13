@@ -36,7 +36,7 @@ define(['order!device', 'order!hammer'],
 			    singleTap(ev);
 			}
 		    if(ev.type === 'doubletap') {
-			    singleTap(ev);
+			    doubleTap(ev);
 			}
 		});
 	}
