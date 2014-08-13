@@ -5,21 +5,22 @@ require.config({
     velocity	: '../components/velocity/velocity.min',
     domReady  : '../components/require/require.domready',
     order  : '../components/require/require.order',
-    keypress  : '../components/keypress/keypress.min',
+    hammer  : '../components/hammer/hammer.min',
 
     // Controllers
     preloader  : 'controllers/preloader_controller',
     device  : 'controllers/device_controller',
+    userinput  : 'controllers/userinput_controller',
   },
 
   shim : {
     'velocity' : {
       deps : ['jquery']
-    }
+    },
   },
 
-  deps : ['jquery', 'velocity', 'keypress', 'app', 'domReady'],
-  callback : function ($, velocity, keypress, app, domReady) {
+  deps : ['jquery', 'velocity', 'domReady', 'app'],
+  callback : function ($, velocity, domReady, app) {
     domReady(function() {
       app.init();
     });

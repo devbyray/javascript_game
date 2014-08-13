@@ -1,6 +1,6 @@
 // Load modules
-define(['order!device', 'order!preloader'], 
-function (device, preloader) {
+define(['order!device', 'order!preloader', 'order!userinput'], 
+function (device, preloader, userinput) {
 
 	"use strict";
 
@@ -36,6 +36,8 @@ function (device, preloader) {
 			});
 
 			console.log(device.deviceType());
+			console.log(device.deviceOS());
+			console.log('Useragent:', navigator.userAgent);
 
 		}
 	}
