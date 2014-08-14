@@ -13,6 +13,8 @@ require.config({
     preloader  : 'controllers/preloader_controller',
     device  : 'controllers/device_controller',
     userinput  : 'controllers/userinput_controller',
+    keyboard  : 'controllers/user_keyboard_controller',
+    touch  : 'controllers/user_touch_controller',
     airplane  : 'controllers/airplane_controller',
   },
 

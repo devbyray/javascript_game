@@ -9,12 +9,12 @@ define(['preloader', 'device', 'airplane', 'userinput'],
 		// Activate the preloader
 	window.setTimeout(function() {
 		preloader.activatePreloader();
-	}, 1500);
+	}, 500);
 
 	window.setTimeout(function() {
 		preloader.hidePreloader();
 		airplane.loadAirplane();
-	}, 5000);
+	}, 2000);
 
 	console.log(device.deviceType());
 	console.log(device.deviceOS());

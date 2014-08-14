@@ -20,7 +20,7 @@ define(['airplane'] ,function (airplane) {
 	return {
 		activatePreloader: function() {
 			console.log('Preloader activate!')
-			$('.preloader').velocity({ opacity: 0}, 3500);
+			$('.preloader').velocity({ opacity: 0}, 1500);
 		},
 		hidePreloader: function() {
 			console.log('Preloader hidden!')
