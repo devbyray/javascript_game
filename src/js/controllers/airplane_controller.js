@@ -8,7 +8,7 @@ define(['canvas'], function(canvas) {
 	var airplane_el = '#airplane';
 	var planeCor = $(airplane_el).offset();
 
-	var center = $(window).outerWidth()/2;
+	var center = Math.round($(window).outerWidth()/2)-48;
 
 	function createAirplane() {
 		console.log('Airplane created');

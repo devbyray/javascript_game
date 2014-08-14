@@ -1,6 +1,6 @@
 // Load modules
-define(['device', 'keyboard', 'touch', 'airplane'], 
-	function (device, keyboard, touch, airplane) {
+define(['device', 'keyboard', 'touch'], 
+	function (device, keyboard, touch) {
 
 	"use strict";
 
