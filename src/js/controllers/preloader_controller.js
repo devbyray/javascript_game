@@ -1,17 +1,10 @@
 // Load modules
-define(function () {
+define(['airplane'] ,function (airplane) {
 
 	"use strict";
 
 	console.log('Preloader script is loading....');
 
-	function activatePreloader() {
-		$('.preloader').velocity({ opacity: 0}, 3500);
-	}
-
-	function hidePreloader() {
-		$('.preloader').hide();
-	}
 
 	var runSpinner = function() {
 		for (var i = 0; i < 5; i++) {
@@ -24,15 +17,15 @@ define(function () {
 		$('.preloader').append('<span class="bull"></span>').velocity({ opacity: 0 });
 	}
 
-	// Activate the preloader
-	window.setTimeout(function() {
-		console.log('Preloader activate!')
-		activatePreloader();
-	}, 1500);
-
-	window.setTimeout(function() {
-		console.log('Preloader activate!')
-		hidePreloader();
-	}, 5000);
+	return {
+		activatePreloader: function() {
+			console.log('Preloader activate!')
+			$('.preloader').velocity({ opacity: 0}, 3500);
+		},
+		hidePreloader: function() {
+			console.log('Preloader hidden!')
+			$('.preloader').hide();
+		}
+	}
 
 });

@@ -9,9 +9,11 @@ require.config({
     keypress  : '../components/keypress/keypress.min',
 
     // Controllers
+    canvas  : 'controllers/canvas_controller',
     preloader  : 'controllers/preloader_controller',
     device  : 'controllers/device_controller',
     userinput  : 'controllers/userinput_controller',
+    airplane  : 'controllers/airplane_controller',
   },
 
   shim : {

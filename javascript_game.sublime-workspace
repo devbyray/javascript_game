@@ -391,7 +391,7 @@
 			"file": "src/js/main.js",
 			"settings":
 			{
-				"buffer_size": 705,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -407,7 +407,7 @@
 			"file": "src/js/controllers/userinput_controller.js",
 			"settings":
 			{
-				"buffer_size": 3216,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -1060,15 +1060,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 705,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								248,
-								248
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1185,7 +1185,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1318,7 +1318,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1327,15 +1327,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3216,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1297,
-								1297
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1448,7 +1448,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 273.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1584,7 +1584,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

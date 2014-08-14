@@ -22,7 +22,6 @@
 @import 'partials/_sidebar.scss';
 @import 'partials/_main.scss';
 @import 'partials/_footer.scss';
-@import 'partials/_gamecanvas.scss';
 
 //----------------------------------*\
 // OBJECTS & MODULES
@@ -44,3 +43,9 @@
 //----------------------------------*/
 
 @import 'vendor/_external.scss';
+
+//----------------------------------*\
+// GAME
+//----------------------------------*/
+
+@import 'game/_game.scss';

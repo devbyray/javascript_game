@@ -47,21 +47,6 @@ body, html {
 .nav ul {
   list-style: none; }
 
-.preloader {
-  background-color: #000; }
-
-.preloader h1 {
-  position: absolute;
-  width: 250px;
-  height: 250px;
-  margin-top: -125px;
-  margin-left: -125px;
-  top: 50%;
-  left: 50%;
-  line-height: 250px;
-  text-align: center;
-  color: #fff; }
-
 @font-face {
   font-family: 'Font-Name';
   src: url('../fonts/font-name.eot');
@@ -134,3 +119,29 @@ body, html {
     widows: 3; }
   h2, h3 {
     page-break-after: avoid; } }
+
+.preloader {
+  background-color: #000; }
+
+.preloader h1 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  margin-top: -125px;
+  margin-left: -125px;
+  top: 50%;
+  left: 50%;
+  line-height: 250px;
+  text-align: center;
+  color: #fff; }
+
+#airplane {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  margin-left: -25px;
+  background: #ccc;
+  border: 1px solid #333;
+  opacity: 0; }

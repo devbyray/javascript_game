@@ -1,6 +1,6 @@
 // Load modules
-define(['device', 'hammer', 'keypress'], 
-	function (device, Hammer, keypress) {
+define(['device', 'hammer', 'keypress', 'airplane'], 
+	function (device, Hammer, keypress, airplane) {
 
 	"use strict";
 
@@ -12,8 +12,8 @@ define(['device', 'hammer', 'keypress'],
 	if(device.deviceType() === 'device') {
 		touchDevice();
 	} else {
-		// window.addEventListener("keydown", keyboardInput, false);
-		var listener = window.keypress.Listener();
+		window.addEventListener("keydown", keyboardInput, false);
+		// var listener = window.keypress.Listener();
 	}
 
 	function touchDevice() {
@@ -48,5 +48,48 @@ define(['device', 'hammer', 'keypress'],
 	function doubleTap(ev) {
 		alert('doubleTap');
 	}
+
+	function keyboardInput(e) {
+		console.log(keyboardCodes[e.keyCode].toLowerCase());
+
+		var keyCtrl = keyboardCodes[e.keyCode].toLowerCase();
+		if(keyCtrl === 'left') {
+			console.log('Fly to left sir!');
+			airplane.flyHorizontal();
+		}
+		if(keyCtrl === 'right') {
+			console.log('Fly to right sir!');
+			airplane.flyHorizontal(+10);
+		}
+	}
+
+	var keyboardCodes = {
+		8: 'Backspace',
+		9: 'Tab',
+		13: 'Enter',
+		16: 'Shift',
+		17: 'Ctrl',
+		18: 'Alt',
+		32: 'Space',
+		37: 'Left',
+		38: 'Up',
+		39: 'Right',
+		40: 'Down',
+		65: 'A - Left',
+		87: 'W - Up',
+		68: 'D - Right',
+		83: 'S - Down',
+	    96: "num_0",
+	    97: "num_1",
+	    98: "num_2 - Down",
+	    99: "num_3",
+	    100: "num_4 - Left",
+	    101: "num_5",
+	    102: "num_6 - Right",
+	    103: "num_7",
+	    104: "num_8 - Up",
+	    105: "num_9"
+	}
+
 
 });
