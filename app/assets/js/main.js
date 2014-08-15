@@ -24,8 +24,8 @@ require.config({
     },
   },
 
-  deps : ['jquery', 'velocity', 'domReady', 'hammer', 'keypress', 'app'],
-  callback : function ($, velocity, domReady, Hammer, keypress, app) {
+  deps : ['jquery', 'velocity', 'domReady', 'app'],
+  callback : function ($, velocity, domReady, app) {
     domReady(function() {
       app.init();
     });

@@ -1,12 +1,12 @@
 // Load modules
 define(['canvas'], function(canvas) {
-
+	
+	
 	"use strict";
 
 	console.log('Airplane controller is loading....');
 
 	var airplane_el = '#airplane';
-	var planeCor = $(airplane_el).offset();
 
 	var center = Math.round($(window).outerWidth()/2)-48;
 
@@ -23,31 +23,27 @@ define(['canvas'], function(canvas) {
 
 	}
 
+	function planeCoor() {
+		var planeCor = $(airplane_el).offset();
+		return {
+			left: planeCor.left,
+			top: planeCor.top,
+		}
+	}
 	return {
 		loadAirplane: function() {
 			createAirplane();
 		},
-		planeCoorLeft: function() {
-			planeCor = $(airplane_el).offset();
-			// console.log(planeCor.left);
-			return planeCor.left;
-		},
-		planeCoorTop: function() {
-			planeCor = $(airplane_el).offset();
-			// console.log(planeCor.top);
-			return planeCor.top;
+		planePosition: function() {
+			planeCoor();
 		},
 		flyHorizontal: function(horz) {
-			this.planeCoorLeft();
-			if(typeof(horz)==='undefined') horz = planeCor.left-50+'px';
+			if(typeof(horz)==='undefined') horz = this.planePosition(['left'])-50+'px';
 			$(airplane_el).velocity({ left: horz}, 275);
-			this.planeCoorLeft();
 		},
 		flyVertical: function(vert) {
-			this.planeCoorLeft();
-			if(typeof(vert)==='undefined') vert = planeCor.top-50+'px';
+			if(typeof(vert)==='undefined') vert = this.planePosition(['top'])-50+'px';
 			$(airplane_el).velocity({ top: vert}, 275);
-			this.planeCoorLeft();
 		},
 	}
 

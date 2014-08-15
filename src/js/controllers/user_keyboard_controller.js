@@ -1,12 +1,11 @@
 // Load modules
-define(['airplane'], 
-	function (airplane) {
+define(	function() {
 
 	"use strict";
 
 	var gameCanvas = document.getElementById("gameCanvas");
 
-	console.log('Userinput controller is loading....');
+	console.log('Keyboard controller is loading....');
 
 	function keyboardCtrl() {
 		window.addEventListener("keydown", keyboardInput, false);
@@ -14,29 +13,33 @@ define(['airplane'],
 
 	function keyboardInput(e) {
 		// console.log(keyboardCodes[e.keyCode].toLowerCase());
+		require(['airplane'], function (airplane) {
 
-		var keyCtrl = keyboardCodes[e.keyCode].toLowerCase();
-		if(keyCtrl === 'left') {
-			airplane.planeCoorLeft();
-			// console.log('Fly to left sir!');
-			airplane.flyHorizontal(Math.round(airplane.planeCoorLeft()-50)+'px');
-		}
-		if(keyCtrl === 'right') {
-			// console.log('Fly to right sir!');
-			airplane.flyHorizontal(Math.round(airplane.planeCoorLeft()+50)+'px');
-		}
-		if(keyCtrl === 'up') {
-			airplane.planeCoorTop();
-			// console.log('Fly to up sir!');
-			if(airplane.planeCoorTop() > 50){
-				airplane.flyVertical(Math.round(airplane.planeCoorTop()-50)+'px');
+			var keyCtrl = keyboardCodes[e.keyCode].toLowerCase();
+			if(keyCtrl === 'left') {
+				console.log('Fly to left sir!');
+				var leftPos = airplane.planePosition(['left']);
+				debugger;
+				console.log(leftPos);
+				airplane.flyHorizontal(Math.round(leftPos-50)+'px');
 			}
-		}
-		if(keyCtrl === 'down') {
-			airplane.planeCoorTop();
-			// console.log('Fly to down sir!');
-			airplane.flyVertical(Math.round(airplane.planeCoorTop()+50)+'px');
-		}
+			if(keyCtrl === 'right') {
+				console.log('Fly to right sir!');
+				var leftPos = airplane.planePosition(['left']);
+				debugger;
+				console.log(leftPos);
+				airplane.flyHorizontal(Math.round(leftPos+50)+'px');
+			}
+			if(keyCtrl === 'up') {
+				// console.log('Fly to up sir!');
+				airplane.flyVertical(Math.round(airplane.planePosition(['top'])-50)+'px');
+			}
+			if(keyCtrl === 'down') {
+				// console.log('Fly to down sir!');
+				airplane.flyVertical(Math.round(airplane.planePosition(['top'])+50)+'px');
+			}
+
+		});
 	}
 
 	var keyboardCodes = {

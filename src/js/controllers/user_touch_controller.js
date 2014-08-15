@@ -4,10 +4,13 @@ define(['airplane', 'hammer'],
 
 	"use strict";
 
+	console.log('Touch controller is loading....');
+
 	var gameCanvas = document.getElementById("gameCanvas"),
 		getAirplane = document.getElementById("airplane"),
 		mc = new Hammer.Manager(gameCanvas);
 
+	debugger;
 	var START_X = airplane.planeCoorLeft();
 	var START_Y = airplane.planeCoorTop();
 

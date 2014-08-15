@@ -1,24 +1,11 @@
 // Load modules
-define(['preloader', 'device', 'airplane', 'userinput'], 
-	function (preloader, device, airplane, userinput) {
+define(function () {
 
 	"use strict";
 
 	var gameCanvas = '#gameCanvas';
 
-		// Activate the preloader
-	window.setTimeout(function() {
-		preloader.activatePreloader();
-	}, 500);
-
-	window.setTimeout(function() {
-		preloader.hidePreloader();
-		airplane.loadAirplane();
-	}, 2000);
-
-	console.log(device.deviceType());
-	console.log(device.deviceOS());
-
+	// 	// Activate the preloader
 
 	return { 
 		windowWidth: function() {

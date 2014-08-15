@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"off",
+				"offset	.offset"
+			],
+			[
+				"pos",
+				"position  (function)"
+			],
+			[
+				"airplan",
+				"airplane_el"
+			],
+			[
+				"airpla",
+				"airplane_el"
+			],
+			[
+				"key",
+				"keyboardInput"
+			],
+			[
 				"mar",
-				"margin-bottom"
+				"margin-left"
+			],
+			[
+				"airpl",
+				"airplane_el"
 			],
 			[
 				"cons",
@@ -138,10 +166,6 @@
 			[
 				"get_tem",
 				"get_template_part"
-			],
-			[
-				"pos",
-				"posts_array"
 			],
 			[
 				"is_sing",
@@ -391,15 +415,15 @@
 			"file": "src/js/main.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 964,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/js/app.js",
+			"file": "src/js/controllers/airplane_controller.js",
 			"settings":
 			{
-				"buffer_size": 980,
+				"buffer_size": 1128,
 				"line_ending": "Windows"
 			}
 		},
@@ -407,15 +431,49 @@
 			"file": "src/js/controllers/userinput_controller.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 502,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/js/controllers/preloader_controller.js",
+			"file": "src/js/controllers/user_keyboard_controller.js",
 			"settings":
 			{
-				"buffer_size": 797,
+				"buffer_size": 1740,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 9 files for \"planeCoorLeft\"\n\nF:\\Github\\javascript_game\\src\\js\\controllers\\airplane_controller.js:\n   27  			createAirplane();\n   28  		},\n   29: 		planeCoorLeft: function() {\n   30  			var planeCor = $(airplane_el).offset();\n   31  			console.log(planeCor);\n   ..\n   39  		},\n   40  		flyHorizontal: function(horz) {\n   41: 			this.planeCoorLeft();\n   42  			if(typeof(horz)==='undefined') horz = planeCor.left-50+'px';\n   43  			$(airplane_el).velocity({ left: horz}, 275);\n   44: 			this.planeCoorLeft();\n   45  		},\n   46  		flyVertical: function(vert) {\n   47: 			this.planeCoorLeft();\n   48  			if(typeof(vert)==='undefined') vert = planeCor.top-50+'px';\n   49  			$(airplane_el).velocity({ top: vert}, 275);\n   50: 			this.planeCoorLeft();\n   51  		},\n   52  	}\n\nF:\\Github\\javascript_game\\src\\js\\controllers\\user_keyboard_controller.js:\n   18  		var keyCtrl = keyboardCodes[e.keyCode].toLowerCase();\n   19  		if(keyCtrl === 'left') {\n   20: 			airplane.planeCoorLeft();\n   21  			// console.log('Fly to left sir!');\n   22: 			airplane.flyHorizontal(Math.round(airplane.planeCoorLeft()-50)+'px');\n   23  		}\n   24  		if(keyCtrl === 'right') {\n   25  			// console.log('Fly to right sir!');\n   26: 			airplane.flyHorizontal(Math.round(airplane.planeCoorLeft()+50)+'px');\n   27  		}\n   28  		if(keyCtrl === 'up') {\n\nF:\\Github\\javascript_game\\src\\js\\controllers\\user_touch_controller.js:\n    9  		mc = new Hammer.Manager(gameCanvas);\n   10  \n   11: 	var START_X = airplane.planeCoorLeft();\n   12  	var START_Y = airplane.planeCoorTop();\n   13  \n\n9 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 1583,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/js/app.js",
+			"settings":
+			{
+				"buffer_size": 743,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/controllers/canvas_controller.js",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/scss/game/airplane/_airplane.scss",
+			"settings":
+			{
+				"buffer_size": 149,
 				"line_ending": "Windows"
 			}
 		}
@@ -463,25 +521,34 @@
 	},
 	"file_history":
 	[
-		"/F/Github/javascript_game/README.md",
+		"/F/Github/javascript_game/src/js/controllers/user_touch_controller.js",
 		"/F/Github/javascript_game/src/js/controllers/device_controller.js",
+		"/F/Github/javascript_game/src/js/controllers/user_keyboard_controller.js",
+		"/F/Github/javascript_game/src/js/controllers/userinput_controller.js",
+		"/Y/Papieren/pass.md",
+		"/F/Github/javascript_game/src/scss/game/_game.scss",
 		"/F/Github/javascript_game/app/assets/components/hammer/hammer.min.js",
+		"/F/Github/javascript_game/src/js/app.js",
+		"/F/Github/javascript_game/src/js/controllers/canvas_controller.js",
+		"/F/Github/javascript_game/src/js/controllers/preloader_controller.js",
+		"/F/Github/javascript_game/src/scss/game/canvas/_canvas.scss",
+		"/F/Github/javascript_game/src/scss/game/canvas/_preloader.scss",
+		"/F/Github/javascript_game/gulpfile.js",
+		"/F/Github/javascript_game/src/scss/partials/_gamecanvas.scss",
+		"/F/Github/javascript_game/src/scss/style.scss",
+		"/F/Github/javascript_game/app/assets/components/keypress/keypress.min.js",
+		"/F/Github/javascript_game/README.md",
 		"/F/Github/javascript_game/src/scss/modules/_vars.scss",
 		"/F/Github/javascript_game/src/scss/modules/_defaults.scss",
-		"/F/Github/javascript_game/src/scss/partials/_gamecanvas.scss",
 		"/F/Github/javascript_game/src/js/controllers/keypress_controller.js",
-		"/F/Github/javascript_game/app/assets/components/keypress/keypress.min.js",
 		"/F/Github/javascript_game/app/assets/components/keypress.min.js",
 		"/F/Github/javascript_game/app/assets/components/require/require.order.js",
-		"/F/Github/javascript_game/src/js/controllers/preloader_controller.js",
-		"/F/Github/javascript_game/gulpfile.js",
 		"/F/Github/javascript_game/package.json",
 		"/F/Github/javascript_game/src/js/init.js",
 		"/F/Github/javascript_game/app/assets/components/require/require.domready.js",
 		"/F/Github/javascript_game/app/index.html",
 		"/F/Github/javascript_game/src/js/main.js",
 		"/F/Github/javascript_game/app/assets/css/style.css",
-		"/F/Github/javascript_game/src/scss/style.scss",
 		"/D/Downloads/jquery-require-sample/jquery-require-sample/webapp/scripts/main.js",
 		"/D/Downloads/jquery-require-sample/jquery-require-sample/webapp/scripts/app.build.js",
 		"/F/Github/javascript_game/app/assets/js/scripts.js",
@@ -581,16 +648,7 @@
 		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/loop/loop-dealers.php",
 		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/single-dealer.php",
 		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 WP Theme/loop/loop-dealer.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/metabox/demo/demo.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/functions/style-script.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/functions/shortcodes.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/functions/locations.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-08-21 WP Theme/loop/loop-locations-home.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-09-02 Custom Plugin/shortcodes/shortcode-locations.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-08-21 website BAS/Bestanden/Source bestanden/2013-09-02 Custom Plugin/shortcodes/shortcode-googlemaps.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-11-13 Dealer plugin/wp-dealer-manager/functions/meta/dealer-meta.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/metabox/wp-wmh-theme-metabox.php",
-		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-10-07 Woocommerce/woocommerce-functions.php"
+		"/Z/Klanten/Intersites-Graficoncept/Opdrachten/2013-09-24 BEWE/Bestanden/Source/2013-09-24 Custom Plugin/metabox/demo/demo.php"
 	],
 	"find":
 	{
@@ -601,6 +659,9 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"F:\\Github\\javascript_game\\src\\js",
+			"F:\\Github\\javascript_game\\src\\js\\controllers",
+			"F:\\Github\\javascript_game\\src\\js",
 			"F:\\BitBucket\\idis_studio\\fastshell\\src\\scss",
 			"F:\\Github\\wmh_annaklijn_theme\\genesis",
 			"F:\\Github\\wmh_annaklijn_theme\\minimum",
@@ -672,6 +733,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"userinput",
+			"planeCoorLeft",
+			"loadAirplane",
+			"planeCoorLeft",
+			"querySelector",
+			"addEvent",
+			"screen",
+			"airplane_el",
+			"userinput",
+			"keyboardInput",
 			"space",
 			"keypressCtrl",
 			"h1",
@@ -789,17 +860,7 @@
 			"woo_form_sample_tab_content",
 			"woocommerce_template_single_sharing",
 			"woo_social_tab_content",
-			".woocommerce-breadcrumb",
-			"woocommerce_breadcrumb",
-			"/",
-			"bread",
-			"fullscreen_slider",
-			"#slider_to_bottom",
-			"#page_heading",
-			"  medium-2",
-			"h4",
-			"page_heading",
-			"get_template_part( 'nav-shop' )"
+			".woocommerce-breadcrumb"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -807,6 +868,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"getElementById",
+			"canvas",
+			"getAirplane",
 			"keypress",
 			"",
 			"url('../fonts/",
@@ -917,7 +981,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1051,7 +1115,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1060,15 +1124,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 964,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								17,
+								17
 							]
 						],
 						"settings":
@@ -1185,24 +1249,157 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/js/app.js",
+					"file": "src/js/controllers/airplane_controller.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 980,
+						"buffer_size": 1128,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								879,
-								860
+								540,
+								540
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/js/controllers/userinput_controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								349
 							]
 						],
 						"settings":
@@ -1322,20 +1519,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/js/controllers/userinput_controller.js",
+					"buffer": 4,
+					"file": "src/js/controllers/user_keyboard_controller.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1029,
+								1029
 							]
 						],
 						"settings":
@@ -1448,27 +1645,209 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/js/controllers/preloader_controller.js",
+					"buffer": 5,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 797,
+						"buffer_size": 1583,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										157,
+										170
+									],
+									[
+										342,
+										355
+									],
+									[
+										500,
+										513
+									],
+									[
+										583,
+										596
+									],
+									[
+										739,
+										752
+									],
+									[
+										969,
+										982
+									],
+									[
+										1085,
+										1098
+									],
+									[
+										1258,
+										1271
+									],
+									[
+										1485,
+										1498
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1490,
+								1490
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								309,
-								309
+								586,
+								634
 							]
 						],
 						"settings":
@@ -1585,6 +1964,271 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/js/controllers/canvas_controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/scss/game/airplane/_airplane.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
