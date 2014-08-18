@@ -16,6 +16,7 @@ require.config({
     keyboard  : 'controllers/user_keyboard_controller',
     touch  : 'controllers/user_touch_controller',
     airplane  : 'controllers/airplane_controller',
+    amo  : 'controllers/amo_controller',
   },
 
   shim : {

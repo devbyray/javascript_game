@@ -19,23 +19,42 @@ define(['canvas'], function(canvas) {
 	function fadeInAirplane() {
 		console.log('Airplane fadeIn');
 		$(airplane_el).css('left', center+'px');
-		$(airplane_el).velocity({ opacity: 1}, 275).velocity({ top: '75%'}, 1000);
-
+		$(airplane_el).velocity({ opacity: 1}, 275).velocity({ bottom: '75px'},{
+			duration: 1000,
+			complete: function() {
+				fillAmo();
+			}
+		});
 	}
 
-	function planeCoor() {
-		var planeCor = $(airplane_el).offset();
+	var planeCoor = function() {
+		var currentPos = $(airplane_el).offset();
+
+		var left = currentPos.left;
+		var top = currentPos.top;
+		var right = left + $(airplane_el).outerWidth();
+		var bottom = top + $(airplane_el).outerHeight();
+	
 		return {
-			left: planeCor.left,
-			top: planeCor.top,
+			left: Math.round(left),
+			top: Math.round(top),
+			right: Math.round(right),
+			bottom: Math.round(bottom),
 		}
 	}
+
+	function fillAmo() {
+		require(['amo'], function (amo) {
+			amo.load();
+		});
+	}
+
 	return {
 		loadAirplane: function() {
 			createAirplane();
 		},
 		planePosition: function() {
-			planeCoor();
+			return planeCoor();
 		},
 		flyHorizontal: function(horz) {
 			if(typeof(horz)==='undefined') horz = this.planePosition(['left'])-50+'px';
