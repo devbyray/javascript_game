@@ -19,7 +19,12 @@ define(['canvas'], function(canvas) {
 	function fadeInAirplane() {
 		console.log('Airplane fadeIn');
 		$(airplane_el).css('left', center+'px');
-		$(airplane_el).velocity({ opacity: 1}, 275).velocity({ bottom: '75px'}, 1000);
+		$(airplane_el).velocity({ opacity: 1}, 275).velocity({ bottom: '75px'},{
+			duration: 1000,
+			complete: function() {
+				fillAmo();
+			}
+		});
 	}
 
 	var planeCoor = function() {
@@ -36,6 +41,12 @@ define(['canvas'], function(canvas) {
 			right: Math.round(right),
 			bottom: Math.round(bottom),
 		}
+	}
+
+	function fillAmo() {
+		require(['amo'], function (amo) {
+			amo.load();
+		});
 	}
 
 	return {

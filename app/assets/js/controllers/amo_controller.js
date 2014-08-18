@@ -12,7 +12,6 @@ define([ 'airplane' ], function(airplane) {
 			$('.amo').css({
 				opacity: 0
 			});
-			shootAmo();
 		}
 
 		function shootAmo() {
@@ -23,19 +22,33 @@ define([ 'airplane' ], function(airplane) {
 					top: airplane.planePosition().top+22,
 					left: airplane.planePosition().left+42,
 				});
-				$(this).velocity({ opacity: 1}).velocity({ top: -50+'px'}, { 
-				    /* Log all the animated divs. */
-				    duration: 1000,
-				    complete: function() {
-				    	$(this).remove();
-				    	console.log('remove amo');
-				    }
-				});
+				$(this).velocity(
+					{ 
+						top: -50+'px',
+						opacity: 1
+					}, 
+					{ 
+					    /* Log all the animated divs. */
+					    duration: 1000,
+					    complete: function() {
+					    	$(this).remove();
+					    	console.log('remove amo');
+					    },
+					    begin: function() { 
+					    	loadAmo();
+					    	console.log('loaded new amo'); 
+					    }
+					}
+				);
 		    });
+	    	
 		}
 
 		return {
 			shoot: function() {
+				shootAmo();
+			},
+			load: function() {
 				loadAmo();
 			}
 		}
