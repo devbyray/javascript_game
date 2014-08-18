@@ -12,11 +12,19 @@ function (canvas, preloader, airplane) {
 		});
 
 		$(window).resize(function() {
-			canvas.windowSize();
+			reloadCanvas();
 		});
 		setTimeout( function() { 
 			loadGame(); 
 		}, 500);
+	}
+
+	function reloadCanvas() {
+		setTimeout( function() {
+			console.log('Please reload your game!');
+			canvas.windowSize();
+			location.reload();
+		}, 1000);
 	}
 
 	function loadGame() {

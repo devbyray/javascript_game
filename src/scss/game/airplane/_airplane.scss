@@ -1,7 +1,13 @@
 #airplane {
 	width: 96px; height: 152px;
 	position: absolute;
-	left: 0; top: -50px;
+	left: 0; bottom: -152px;
 	opacity: 0;
 	background: url(../img/rocket.png) no-repeat 0 0;
+}
+
+.amo {
+	width: 12px; height: 20px;
+	position: absolute;
+	background: url(../img/bullet_normal.png);
 }

@@ -12,7 +12,6 @@ define(function () {
 
 			console.log('Type is device');
 
-			debugger;
 			require(['touch'], function (touch) {
 				touch.loadTouchCtrl();			
 			});

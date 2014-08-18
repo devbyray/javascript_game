@@ -33,6 +33,7 @@ gulp.task('css', function () {
     .pipe(header(banner, { package : package }))
     .pipe(gulp.dest('app/assets/css'))
     .pipe(browserSync.reload({stream:true}));
+    console.log('New CSS available');
 });
 
 gulp.task('js',function(){

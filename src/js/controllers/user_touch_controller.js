@@ -10,7 +10,6 @@ define(['airplane', 'hammer'],
 		getAirplane = document.getElementById("airplane"),
 		mc = new Hammer.Manager(gameCanvas);
 
-	debugger;
 	var START_X = airplane.planeCoorLeft();
 	var START_Y = airplane.planeCoorTop();
 
