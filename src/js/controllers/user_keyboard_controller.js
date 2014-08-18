@@ -8,7 +8,7 @@ define(	function() {
 	console.log('Keyboard controller is loading....');
 
 	function keyboardCtrl() {
-		window.addEventListener("keydown", keyboardInput, false);
+		window.addEventListener("keyup", keyboardInput, false);
 	}
 
 	function keyboardInput(e) {
