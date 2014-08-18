@@ -9,23 +9,24 @@ define([ 'airplane' ], function(airplane) {
 		function loadAmo() {
 			console.log('Amo created');
 			$(gameCanvas).prepend('<span class="amo"></span>');
-			$('.amo').css({
-				opacity: 0
-			});
+			$(gameCanvas).prepend('<div id="scoreboard"></div>');
+			$('#scoreboard').prepend('<span class="total_bullets"></span>');
 		}
 
 		function shootAmo() {
 			console.log('Amo shooted');
-
+			var i = 0;
 			$(".amo").each(function() {
 				$(this).css({
 					top: airplane.planePosition().top+22,
 					left: airplane.planePosition().left+42,
+					opacity: 1
 				});
+				// debugger;
 				$(this).velocity(
 					{ 
-						top: -50+'px',
-						opacity: 1
+
+						top: -50+'px'
 					}, 
 					{ 
 					    /* Log all the animated divs. */
@@ -40,8 +41,13 @@ define([ 'airplane' ], function(airplane) {
 					    }
 					}
 				);
+				i++;
 		    });
-	    	
+			countBullets(i);
+		}
+
+		function countBullets(i) {
+			$('.total_bullets').text('bullets: ' + i);
 		}
 
 		return {

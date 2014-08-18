@@ -26,21 +26,22 @@ define(	function() {
 				Fly: up, down, left & right
 				Functions can be found
 			 */
-			if(keyCtrl === 'left' || keyCtrl === 'a' || keyCtrl === 'num_4') {
-				// console.log('Fly to left sir!');
-				airplane.flyHorizontal(Math.round(leftPos-50)+'px');
-			}
-			if(keyCtrl === 'right' || keyCtrl === 'd' || keyCtrl === 'num_6') {
-				// console.log('Fly to right sir!');
-				airplane.flyHorizontal(Math.round(leftPos+50)+'px');
-			}
-			if(keyCtrl === 'up' || keyCtrl === 'w' || keyCtrl === 'num_8') {
-				// console.log('Fly to up sir!');
-				airplane.flyVertical(Math.round(topPos-50)+'px');
-			}
-			if(keyCtrl === 'down' || keyCtrl === 's' || keyCtrl === 'num_2') {
-				// console.log('Fly to down sir!');
-				airplane.flyVertical(Math.round(topPos+50)+'px');
+			if(typeof(e) != "undefined"){
+				if(keyCtrl === 'left' || keyCtrl === 'a' || keyCtrl === 'num_4') {
+					// console.log('Fly to left sir!');
+					airplane.flyHorizontal(Math.round(leftPos-50)+'px');
+				} else if(keyCtrl === 'right' || keyCtrl === 'd' || keyCtrl === 'num_6') {
+					// console.log('Fly to right sir!');
+					airplane.flyHorizontal(Math.round(leftPos+50)+'px');
+				} else if(keyCtrl === 'up' || keyCtrl === 'w' || keyCtrl === 'num_8') {
+					// console.log('Fly to up sir!');
+					airplane.flyVertical(Math.round(topPos-50)+'px');
+				} else if(keyCtrl === 'down' || keyCtrl === 's' || keyCtrl === 'num_2') {
+					// console.log('Fly to down sir!');
+					airplane.flyVertical(Math.round(topPos+50)+'px');
+				} else {
+					console.log('Dont know that key');
+				}
 			}
 
 			/*
