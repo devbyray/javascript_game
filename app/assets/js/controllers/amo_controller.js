@@ -10,12 +10,13 @@ define([ 'airplane' ], function(airplane) {
 			console.log('Amo created');
 			$(gameCanvas).prepend('<span class="amo"></span>');
 			$(gameCanvas).prepend('<div id="scoreboard"></div>');
-			$('#scoreboard').prepend('<span class="total_bullets"></span>');
+			$('#scoreboard').prepend('<span class="total_bullets">Shots fired: 0</span>');
 		}
+
+		var fired = 0;
 
 		function shootAmo() {
 			console.log('Amo shooted');
-			var i = 0;
 			$(".amo").each(function() {
 				$(this).css({
 					top: airplane.planePosition().top+22,
@@ -25,7 +26,6 @@ define([ 'airplane' ], function(airplane) {
 				// debugger;
 				$(this).velocity(
 					{ 
-
 						top: -50+'px'
 					}, 
 					{ 
@@ -41,13 +41,12 @@ define([ 'airplane' ], function(airplane) {
 					    }
 					}
 				);
-				i++;
 		    });
-			countBullets(i);
+			countBullets(fired++);
 		}
 
-		function countBullets(i) {
-			$('.total_bullets').text('bullets: ' + i);
+		function countBullets(fired) {
+			$('.total_bullets').text('Shots fired: ' + fired);
 		}
 
 		return {
