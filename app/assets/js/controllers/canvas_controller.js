@@ -3,9 +3,11 @@ define(function () {
 
 	"use strict";
 
+	console.log('Canvas script is loading....');
+
 	var gameCanvas = '#gameCanvas';
 
-	// 	// Activate the preloader
+	// Activate the preloader
 
 	return { 
 		windowWidth: function() {

@@ -1,6 +1,6 @@
 // Load modules
-define(['canvas', 'preloader', 'airplane'], 
-function (canvas, preloader, airplane) {
+define(['canvas', 'preloader', 'airplane', 'modal'], 
+function (canvas, preloader, airplane, modal) {
 
 
 	"use strict";
@@ -27,11 +27,20 @@ function (canvas, preloader, airplane) {
 		}, 1000);
 	}
 
+	$('#close_modal').click( function() {
+				console.log('click');
+				$('.modal').removeClass('introduction')
+				.velocity({opacity: 0}, 2000)
+				.hide();
+			});
+	
 	function loadGame() {
 		preloader.activatePreloader();
 
 		window.setTimeout(function() {
 			preloader.hidePreloader();
+			modal.introModalWindow();
+			modal.hideModal();
 			airplane.loadAirplane();
 			loadUserInput();
 		}, 2000);

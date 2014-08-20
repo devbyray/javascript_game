@@ -10,6 +10,7 @@ require.config({
 
     // Controllers
     canvas  : 'controllers/canvas_controller',
+    modal  : 'controllers/modal_controller',
     preloader  : 'controllers/preloader_controller',
     device  : 'controllers/device_controller',
     userinput  : 'controllers/userinput_controller',
